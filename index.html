@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Alex Barajas' Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Alex Barajas</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <!-- Add other navigation links here -->
+    </nav>
+    <main>
+        <section class="bio-section">
+            <img src="./me.png" alt="Alex Barajas">
+            <div class="bio">
+                <h2>About Me</h2>
+                <p>I am Alexander Barajas-Ritchie, a Ph.D. candidate in Computer Science at Oregon State University, specializing in environmental data science, sustainability, power systems, and remote sensing. I earned my B.S. in Computer Science with distinction from Sonoma State in the spring of 2021 and have been passionately pursuing my doctoral degree ever since. My aspiration is to use my research to advocate for and empower underrepresented communities. Outside of my academic pursuits, you'll find me rock climbing, enjoying my favorite records, and cherishing time spent with friends.</p>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2>Contact Me</h2>
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <img src="./Email.png" alt="Email Icon">
+                    <p>Email: <a href="mailto:barajale@oregonstate.edu">barajale[at]oregonstate[dot]edu</a></p>
+                </div>
+                <div class="contact-item">
+                    <img src="./icons8-github-100.png" alt="GitHub Icon">
+                    <p>GitHub: <a href="https://github.com/barajale" target="_blank">barajale</a></p>
+                </div>
+                <div class="contact-item">
+                    <img src="./Linkedin logo.png" alt="LinkedIn Icon">
+                    <p>LinkedIn: <a href="https://www.linkedin.com/in/barajasr" target="_blank">barajasr</a></p>
+                </div>
+            </div>
+        </section>
+        
+        
+
+
+    <section class="repositories">
+        <h3>My Projects</h3>
+        <div class="repo-grid">
+            <div class="repo">
+                <img src="./WEC_GRID_logo_1.png" alt="WEC-GRID Logo">
+                <h4><a href="https://github.com/acep-uaf/WEC-GRID" target="_blank">WEC-GRID</a></h4>
+                <p>WEC-GRID is an open-source Python library crafted to simulate the integration of Wave Energy Converters (WECs) and Current Energy Converters (CECs) into renowned power grid simulators like PSS®E & PyPSA.</p>
+            </div>
+            <div class="repo">
+                <img src="./3D_forest.png" alt="3D Forest">
+                <h4><a href="https://github.com/barajale/3D_forest" target="_blank">QSM Processing</a></h4>
+                <p>produced accurate QSM model of Coastal Red Woods.</p>
+            </div>
+            <!-- More projects here -->
+        </div>
+    </section>
+
+        <section class="papers">
+            <h2>Research Papers</h2>
+            <div class="paper-grid">
+                <div class="paper">
+                    <embed src="./alexander_barajas_qualifier.pdf#page=1" type="application/pdf" width="500" height="500" />
+                    <div class="paper-content">
+                        <h3><a href="./alexander_barajas_qualifier.pdf" target="_blank">Modeling and Simulation of Renewable Energy and Electrical Power Infrastructure — Computational Challenges and Opportunities</a></h3>
+                        <p>This paper provides a comprehensive survey of the literature on the model- ing and simulation of renewable energy and electrical power infrastructure, focusing on the computational challenges and opportunities in the context of societal inequality and climate change. We delve into the formal com- putational description of power flow problems through Quasi-Steady-State (QSS) simulation and address the complexities of computing with wide-area time-series data, highlighting scaling and storage issues. Further, we exam- ine the integration of renewable energy resources into power flow and QSS simulations, spotlighting the modern generation’s prospects, including hy- brid plants. This paper discusses the computational intricacies of modeling and simulating microgrids and regional grids. Looking ahead, we evaluate the potential of emerging technologies and paradigms, such as open-source software, forecasting time-series resources, control and optimization inte- gration, high-performance computing, and quantum-based optimization, to revolutionize power system computing.<a href="./alexander_barajas_qualifier.pdf" target="_blank">Read more</a></p>
+                    </div>
+                </div>
+
+                <div class="paper">
+                    <embed src="./FES2023.pdf" type="application/pdf" width="300" height="300" />
+                    <div class="paper-content">
+                        <h3><a href="./FES2023.pdf" target="_blank">Open-Source Steady-State Models for Integration of Wave Energy Converter into Microgrids</a></h3>
+                        <p>This paper proposes a software framework, WEC-Grid, for integrating wave energy converters (WECs) into power flow software, such as Siemens PSS®E, to aid the integration of alternative energy sources into Microgrids. While integrating alternative sources such as WECs presents specific challenges such as cost, power quality, and power variability, wave energy is a promising renewable energy resource. Evaluating the integration of WECs into the power grid is a complex and nuanced problem that requires seamless communication between a WEC model and power flow software. The presented WEC-Grid software framework bridges and extends the functionality of WEC-Sim, an open-source WEC modeling package for MATLAB, through a wave-to-wire (W2W) electro-mechanical power conversion and processing model. WEC-Grid acts as a software wrapper, handler, and communication layer between the W2W modeler and power flow software. The software is designed to represent each grid system as a class object, allowing power system operators to perform power system duties such as contingency planning and dispatch operations. The integration of WECs with PSS®E's power flow calculations workflow is demonstrated with an IEEE RTS case study<a href="./FES2023 (3).pdf" target="_blank">Read more</a></p>
+                    </div>
+                </div>
+
+                <div class="paper">
+                    <embed src="./Redwood_capstone.pdf#page=1" type="application/pdf" width="300" height="300" />
+                    <div class="paper-content">
+                        <h3><a href="./Redwood_capstone.pdf" target="_blank">Optimizing Quantitative Structure Model (QSMs) parameters for Coastal Redwoods (Sequoia sempervirens) for accurate aboveground biomass estimates</a></h3>
+                        <p>In northern California, there is an abundance of Sequoia sempervirens trees (coastal redwoods). These redwood trees provide many essential environmental services, one of which is sequestering carbon via their considerable amount of aboveground biomass (AGB). Determining the amount of carbon that these trees store in their AGB is a crucial part of carbon accounting, a quantification of greenhouse gas emissions. However, measuring AGB is difficult to calculate as destructive harvesting of trees is needed. Alternatively, allometric equations developed from destructive sampling can be used to estimate AGB via tree diameter and/or height measurements. Unfortunately, these measurements are time consuming, and their accuracy is contingent on applying them to trees with similar ages and growth environments as those used for the allometric equation development. Here, we capitalize on remote sensing technology, specifically, a terrestrial laser scanner (TLS) to non-destructively estimate AGB of coastal redwood trees. My goal was to first optimize parameters of quantitative structure models (QSM) to estimate tree volume and then compare AGB estimates from the TLS-QSM approach to AGB estimates from diameter and height measurements measured in the field and applied to published allometric equations. We found that our optimized parameters in creating QSMs yielded similar AGB results to published allometric equations. The results from this study are important because they will allow us to better estimate coastal redwood AGB in specific areas of Sonoma County, which will allow for improved carbon accounting and appropriate planning of forest and timber management.<a href="./Redwood_capstone[547].pdf" target="_blank">Read more</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="cv">
+            <h2>Curriculum Vitae</h2>
+            <div class="paper-grid">
+                <div class="paper">
+                    <embed src="./CV_Spring2023.pdf" type="application/pdf" width="500" height="500" />
+                    <div class="paper-content">
+                        <h3><a href="./CV_Spring2023.pdf" target="_blank"></a></h3>
+                        <p><a href="./CV_Spring2023.pdf" target="_blank"> Download</a></p>
+                    </div>
+                </div>
+
+        </section>
+        
+
+        <section class="support">
+            <h2>Support My Work</h2>
+            <p>If you appreciate my research and contributions, consider supporting me on Buy Me a Coffee!</p>
+            <a href="https://www.buymeacoffee.com/barajale" target="_blank" class="bmc-button">
+                <img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" style="height: 51px !important; width: 217px !important;">
+            </a>
+        </section>
+    </main>
+    <footer>
+        <p>© 2023 Alex Barajas. All rights reserved.</p>
+    </footer>
+</body>
+</html>
