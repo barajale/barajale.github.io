@@ -177,6 +177,32 @@ footer {
     margin-right: 8px;
 }
 
+.presentation-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.presentation-content {
+    margin-top: 10px;
+}
+
+.presentation-content h3 {
+    margin-bottom: 10px;
+}
+
+.presentation-content p {
+    line-height: 1.6;
+}
+
+
 /* Responsive Design */
 @media screen and (max-width: 768px) {
 
